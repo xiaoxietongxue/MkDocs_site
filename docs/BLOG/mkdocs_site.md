@@ -1,0 +1,42 @@
+## Requirements
+MkDocs requires a recent version of Python and the Python package manager, pip, to be installed on your system
+
+You can check if you already have these installed from the command line:
+```
+$ python --version
+Python 3.9.7
+$ pip --version
+pip 21.2.4 from /Users/xiechenfeng/opt/anaconda3/lib/python3.9/site-packages/pip (python 3.9)
+```
+## Installing MkDocs
+Install the mkdocs package using pip:
+```
+$ pip install mkdocs
+```
+use tree prompt to visualize the structure of the file system 
+``` 
+$ tree
+.
+├── docs
+│   └── index.md
+└── mkdocs.yml
+
+```
+## Deploy MkDocs
+GitHub > New Repository(repository name: MkDocs_site)
+```
+$ git init
+$ git add .
+$ git commit -m'first trial'
+$ git remote add origin git@github.com:xiaoxietongxue/MkDocs_site.git
+$ git push origin main
+$ mkdocs gh-deploy
+```
+
+## Configuration 
+edit mkdocs.yml
+
+## Install material theme
+```
+$ pip install mkdocs-material
+```

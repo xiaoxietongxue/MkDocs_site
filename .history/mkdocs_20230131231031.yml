@@ -6,9 +6,6 @@ site_description: 解辰锋的个人网站
 
 # [Navigtion]
 nav:
-- 博客
-  - MkDocs搭建静态博客: BLOG/mkdocs_site.md
-
   
 # [UI]
 ## [top]
@@ -42,9 +39,16 @@ edit_uri: edit/main/docs # 编辑按钮跳转的链接
 repo_url: https://github.com/xiaoxietongxue/xiaoxietongxue.github.io # 右上角点击跳转的链接
 repo_name: xiaoxietongxue.github.io/MkDocs_site # 右上角的名字
 ## [bottom-left corner]
-copyright: 解辰锋 CC-BY-4.0 # 左下角的版权声明
+copyright: 杨希杰 CC-BY-4.0 # 左下角的版权声明
 ## [bottom-right corner]
-
+extra:
+  social: # icons
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/24502827
+      name: Bilibili | 我不是小杰 # 鼠标悬浮提示
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yang-Xijie
+      name: GitHub | Yang-Xijie
 
 # [Extensions]
 plugins:

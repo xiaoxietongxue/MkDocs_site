@@ -6,9 +6,6 @@ site_description: 解辰锋的个人网站
 
 # [Navigtion]
 nav:
-- 博客
-  - MkDocs搭建静态博客: BLOG/mkdocs_site.md
-
   
 # [UI]
 ## [top]
