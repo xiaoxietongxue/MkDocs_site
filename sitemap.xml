@@ -46,12 +46,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/caili/</loc>
+         <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/Control/jingdiankong/</loc>
          <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/xiankong/</loc>
+         <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/Control/lubang/</loc>
+         <lastmod>2023-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/Control/xiankong/</loc>
+         <lastmod>2023-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/MATH/fubian/</loc>
+         <lastmod>2023-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/Mechanics/caili/</loc>
          <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
