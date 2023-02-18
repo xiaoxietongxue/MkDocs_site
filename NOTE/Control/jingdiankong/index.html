@@ -287,7 +287,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../BISHE/zj_213/" class="md-tabs__link">
+      <a href="../../../BISHE/learn_contents" class="md-tabs__link">
         本科毕业设计记录
       </a>
     </li>
@@ -418,6 +418,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -468,6 +470,20 @@
     <li class="md-nav__item">
       <a href="../../../CODING/latex/" class="md-nav__link">
         latex速查表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CODING/github_ssh/" class="md-nav__link">
+        本地连接到github(ssh)
       </a>
     </li>
   
@@ -767,6 +783,33 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#bode" class="md-nav__link">
+    极坐标图与Bode图
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    频域稳定判据
+  </a>
+  
+    <nav class="md-nav" aria-label="频域稳定判据">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nyquist" class="md-nav__link">
+    Nyquist稳定判据
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -976,8 +1019,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../BISHE/zj_213/" class="md-nav__link">
-        20230213总结
+      <a href="../../../BISHE/learn_contents" class="md-nav__link">
+        学习资料汇总
       </a>
     </li>
   
@@ -1106,6 +1149,33 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#bode" class="md-nav__link">
+    极坐标图与Bode图
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    频域稳定判据
+  </a>
+  
+    <nav class="md-nav" aria-label="频域稳定判据">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nyquist" class="md-nav__link">
+    Nyquist稳定判据
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1203,6 +1273,31 @@ $$ \phi(\omega)=\phi_2(\omega)-\phi_1(\omega) $$</p>
 <p>频率响应也可以写作</p>
 <div class="arithmatex">\[ G(j\omega)=A(\omega)e^{j\phi(\omega)}\]</div>
 <p>不难发现，频率响应的模即为幅频特性、幅角即为相频特性</p>
+<h3 id="bode">极坐标图与Bode图<a class="headerlink" href="#bode" title="Permanent link">&para;</a></h3>
+<p>极坐标图（也称奈式曲线）:就是将频率响应的复数表达映射到二位极坐标平面上</p>
+<p>Bode图（对数频率特性图）:将幅频和相频随频率的变化分别在两张图上表达出来</p>
+<p>可以用matlab 绘制系统的极坐标图和bode图：</p>
+<p>比如我们建立的数学模型为
+$$ G(s)=\frac{100}{s(5s+1)(2s+1)} $$</p>
+<p>借助matlab代码实现</p>
+<div class="highlight"><pre><span></span><code>    num=100;
+    den=conv(conv([1,0],[5,1]),[2,1]);
+    sys=tf(num,den);
+    nyquist(sys)   %奈式曲线
+    bode(sys)      %bode图
+</code></pre></div>
+<h3 id="_13">频域稳定判据<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>频域稳定判据包括两种：</p>
+<ul>
+<li>Nyquist稳定判据</li>
+<li>对数稳定判据</li>
+</ul>
+<p>他们可以提供以下信息：</p>
+<ol>
+<li>系统是否稳定？若不稳定，有多少根在右平面？</li>
+<li>能否确定系统的稳定程度，即相对稳定性，以及给出提高系统稳定性的程度</li>
+</ol>
+<h4 id="nyquist">Nyquist稳定判据<a class="headerlink" href="#nyquist" title="Permanent link">&para;</a></h4>
 
 
 
