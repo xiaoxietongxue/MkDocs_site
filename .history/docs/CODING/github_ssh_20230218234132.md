@@ -1,0 +1,20 @@
+# 如何与远程仓库通过ssh绑定
+
+## 配置用户名和邮箱
+```
+$ git config --global user.name "username"
+$ git config --global user.email "useremail"
+```
+## 本地生成ssh key并copy进github
+```
+$ ssh-keygen -t rsa -C "your_email@youremail.com"
+```
+
+进入命令行提示的文件夹，找到id_rsa.pub文件
+
+将其粘贴到github>settings>SSH and GPG keys
+
+## 检验是否成功
+```
+$ ssh -T git@github.com
+```
