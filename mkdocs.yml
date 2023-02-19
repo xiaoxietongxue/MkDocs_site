@@ -9,10 +9,13 @@ nav:
 - 博客:
   - MkDocs搭建静态博客: BLOG/mkdocs_site.md
 - 编程与代码开发:
+  - 问题记录:
+    - github连接问题: CODING/ISSUES/github_connection.md
+    - 本地连接到github(ssh): CODING/ISSUES/github_ssh.md
   - 掌握markdown: CODING/markdown.md
   - 速通git: CODING/git.md
   - latex速查表: CODING/latex.md
-  - 本地连接到github(ssh): CODING/github_ssh.md
+  
 - 笔记: 
   - 力学:
     - 材料力学: NOTE/Mechanics/caili.md

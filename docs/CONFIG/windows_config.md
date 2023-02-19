@@ -7,17 +7,14 @@
     + 其他插件
 + caj viewer
 
-## 编程工具
 
-+ vscode
-+ git
-
+## 
 ## 写作工具
 
 + typora
 + WPS
 
-## 解压工具
+## 解压工具 
 
 + bandzip
 
@@ -28,7 +25,5 @@
 ## 网络浏览器
 
 + google
-
-## 
 
 
