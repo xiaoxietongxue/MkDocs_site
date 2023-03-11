@@ -2,92 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/BISHE/learn_contents/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/BLOG/mkdocs_site/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/CODING/git/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/CODING/latex/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/CODING/markdown/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/CODING/vscode_warp/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/CODING/ISSUES/github_connection/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/CODING/ISSUES/github_ssh/</loc>
-         <lastmod>2023-03-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://xiaoxietongxue.github.io/MkDocs_site/CONFIG/macos_config/</loc>
-         <lastmod>2023-03-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://xiaoxietongxue.github.io/MkDocs_site/CONFIG/useful_site/</loc>
-         <lastmod>2023-03-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://xiaoxietongxue.github.io/MkDocs_site/CONFIG/windows_config/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/JILU/9s12/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xiaoxietongxue.github.io/MkDocs_site/JILU/CAN_analyze/</loc>
+         <lastmod>2023-03-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xiaoxietongxue.github.io/MkDocs_site/JILU/server_config/</loc>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/Control/jingdiankong/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/Control/lubang/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/Control/xiankong/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/MATH/fubian/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xiaoxietongxue.github.io/MkDocs_site/NOTE/Mechanics/caili/</loc>
-         <lastmod>2023-03-10</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
