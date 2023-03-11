@@ -25,13 +25,12 @@ nav:
     - 经典控制理论: NOTE/Control/jingdiankong.md
   - 数学基础:
     - 复变函数: NOTE/MATH/fubian.md
-- 个人实用工具:
-  - windows电脑配置: CONFIG/windows_config.md
-  - 常用网址: CONFIG/useful_site.md
-  - macbook电脑配置: CONFIG/macos_config.md
+
 
 - 学习记录:
   - 9s12单片机: JILU/9s12.md
+  - 服务器选购: JILU/server_config.md
+  - CAN分析仪: JILU/CAN_analyze.md
 
 # [UI]
 ## [top]
@@ -101,3 +100,4 @@ extra_javascript:
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
   - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+  

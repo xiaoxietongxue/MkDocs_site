@@ -12,20 +12,20 @@
         <meta name="author" content="解辰锋">
       
       
-        <link rel="canonical" href="https://xiaoxietongxue.github.io/MkDocs_site/NOTE/Control/lubang/">
+        <link rel="canonical" href="https://xiaoxietongxue.github.io/MkDocs_site/CODING/ISSUES/github_ssh/">
       
       
-        <link rel="prev" href="../xiankong/">
+        <link rel="prev" href="../github_connection/">
       
       
-        <link rel="next" href="../jingdiankong/">
+        <link rel="next" href="../../markdown/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.2">
     
     
       
-        <title>鲁棒控制理论 - 解辰锋的个人网站</title>
+        <title>本地连接到github(ssh) - 解辰锋的个人网站</title>
       
     
     
@@ -81,7 +81,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#robust-control" class="md-skip">
+        <a href="#ssh" class="md-skip">
           跳转至
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              鲁棒控制理论
+              本地连接到github(ssh)
             
           </span>
         </div>
@@ -224,6 +224,8 @@
         
   
   
+    
+  
 
 
   
@@ -235,7 +237,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../CODING/ISSUES/github_connection/" class="md-tabs__link">
+      <a href="../github_connection/" class="md-tabs__link md-tabs__link--active">
         编程与代码开发
       </a>
     </li>
@@ -247,8 +249,6 @@
         
   
   
-    
-  
 
 
   
@@ -260,7 +260,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Mechanics/caili/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../../NOTE/Mechanics/caili/" class="md-tabs__link">
         笔记
       </a>
     </li>
@@ -390,16 +390,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
       
       
         
@@ -418,7 +418,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           编程与代码开发
@@ -429,16 +429,16 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_1" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
       
       
         
@@ -453,7 +453,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2_1">
           <span class="md-nav__icon md-icon"></span>
           问题记录
@@ -466,7 +466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../CODING/ISSUES/github_connection/" class="md-nav__link">
+      <a href="../github_connection/" class="md-nav__link">
         github连接问题
       </a>
     </li>
@@ -478,11 +478,66 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../../CODING/ISSUES/github_ssh/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          本地连接到github(ssh)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         本地连接到github(ssh)
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    配置用户名和邮箱
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ssh-keycopygithub" class="md-nav__link">
+    本地生成ssh key并copy进github
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    检验是否成功
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -501,7 +556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../CODING/markdown/" class="md-nav__link">
+      <a href="../../markdown/" class="md-nav__link">
         掌握markdown
       </a>
     </li>
@@ -515,7 +570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../CODING/git/" class="md-nav__link">
+      <a href="../../git/" class="md-nav__link">
         速通git
       </a>
     </li>
@@ -529,7 +584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../CODING/latex/" class="md-nav__link">
+      <a href="../../latex/" class="md-nav__link">
         latex速查表
       </a>
     </li>
@@ -549,16 +604,16 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
       
       
         
@@ -575,7 +630,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           笔记
@@ -621,7 +676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Mechanics/caili/" class="md-nav__link">
+      <a href="../../../NOTE/Mechanics/caili/" class="md-nav__link">
         材料力学
       </a>
     </li>
@@ -640,16 +695,16 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
       
       
         
@@ -666,7 +721,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3_2">
           <span class="md-nav__icon md-icon"></span>
           控制
@@ -679,7 +734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../xiankong/" class="md-nav__link">
+      <a href="../../../NOTE/Control/xiankong/" class="md-nav__link">
         现代控制理论
       </a>
     </li>
@@ -691,52 +746,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          鲁棒控制理论
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../NOTE/Control/lubang/" class="md-nav__link">
         鲁棒控制理论
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#definitions" class="md-nav__link">
-    Definitions
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -748,7 +762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../jingdiankong/" class="md-nav__link">
+      <a href="../../../NOTE/Control/jingdiankong/" class="md-nav__link">
         经典控制理论
       </a>
     </li>
@@ -802,7 +816,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../MATH/fubian/" class="md-nav__link">
+      <a href="../../../NOTE/MATH/fubian/" class="md-nav__link">
         复变函数
       </a>
     </li>
@@ -937,8 +951,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#definitions" class="md-nav__link">
-    Definitions
+  <a href="#_1" class="md-nav__link">
+    配置用户名和邮箱
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ssh-keycopygithub" class="md-nav__link">
+    本地生成ssh key并copy进github
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    检验是否成功
   </a>
   
 </li>
@@ -964,17 +992,19 @@
   
 
 
-<h1 id="robust-control">鲁棒控制理论 Robust Control<a class="headerlink" href="#robust-control" title="Permanent link">&para;</a></h1>
-<h2 id="definitions">Definitions<a class="headerlink" href="#definitions" title="Permanent link">&para;</a></h2>
-<p><strong>Robust control</strong> is not a specific controller like PID or full state feedback,instead it's a a design method,it's a set of tools that allow us to choose PID games or full state feedback games or to tune some other controller so that it is robust</p>
-<p>A system is robust if it's capable of meeting requirements usually <strong>stability</strong> or <strong>performance measures</strong> even in the presence of <strong>model or disturbance uncertainty.</strong></p>
-<p>don't know my system perfectly or the environment is complex ---don't worry,it will work out with the help of our robust control system!</p>
-<p>problems that we meet when design a control system:the mathematical model we use is probably wrong</p>
-<ul>
-<li>system is too complex and model can't be comprehensible</li>
-<li>system can vary with the flow of time</li>
-<li>...</li>
-</ul>
+<h1 id="ssh">如何与远程仓库通过ssh绑定<a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h1>
+<h2 id="_1">配置用户名和邮箱<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>$ git config --global user.name &quot;username&quot;
+$ git config --global user.email &quot;useremail&quot;
+</code></pre></div>
+<h2 id="ssh-keycopygithub">本地生成ssh key并copy进github<a class="headerlink" href="#ssh-keycopygithub" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>$ ssh-keygen -t rsa -C &quot;your_email@youremail.com&quot;
+</code></pre></div>
+<p>进入命令行提示的文件夹，找到id_rsa.pub文件</p>
+<p>将其粘贴到github&gt;settings&gt;SSH and GPG keys</p>
+<h2 id="_2">检验是否成功<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>$ ssh -T git@github.com
+</code></pre></div>
 
 
 
